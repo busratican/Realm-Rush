@@ -15,11 +15,13 @@ public class CoordinateLabeler : MonoBehaviour
     }
     void Update()
     {
+        DisplayCoordinates();
         if(!Application.isPlaying)
         {
-            DisplayCoordinates();
+           // DisplayCoordinates();
             UpdateObjectName();
         }
+        
     }
 
     void DisplayCoordinates()
