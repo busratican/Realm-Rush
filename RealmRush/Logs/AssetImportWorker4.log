@@ -242,3 +242,36 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 88.343648 seconds.
+  path: Assets/Tower
+  artifactKey: Guid(fd7f71d492b8d4d9c86e65b9404c390b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tower using Guid(fd7f71d492b8d4d9c86e65b9404c390b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693ac3c51409e4a2e432182cba272796') in 0.005495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 77.135715 seconds.
+  path: Assets/Tiles/WayPoint.cs
+  artifactKey: Guid(61b7668f54887402e9270ec206cd1ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/WayPoint.cs using Guid(61b7668f54887402e9270ec206cd1ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1bae568aaeea0f13601539c8a4efbba') in 0.131581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.659127 seconds.
+  path: Assets/Tiles/Tile.prefab
+  artifactKey: Guid(53904c39e5956427e884beb1a16289cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile.prefab using Guid(53904c39e5956427e884beb1a16289cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b443371243a0c33e5d680ced16a8a971') in 0.118652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Tiles/Tile_RoadCorner270.prefab
+  artifactKey: Guid(aac1ba23aa91340eb8bc352b84202234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile_RoadCorner270.prefab using Guid(aac1ba23aa91340eb8bc352b84202234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183e0f1bd23cc33409388baa5250fdbf') in 0.027613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Tiles/Tile_RoadStraight90.prefab
+  artifactKey: Guid(d87b58876fba74569a727d2bb91c2005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile_RoadStraight90.prefab using Guid(d87b58876fba74569a727d2bb91c2005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24599931f2ac740cb7881d2a05100804') in 0.023903 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
