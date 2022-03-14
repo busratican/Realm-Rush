@@ -1,0 +1,685 @@
+Unity Editor version:    2021.2.12f1 (48b1aa000234)
+Branch:                  2021.2/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.2.1 (Build 21D62)
+Darwin version:          21.3.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+/Users/busragul/Desktop/Unity/Realm-Rush/RealmRush
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+57688
+Successfully changed project path to: /Users/busragul/Desktop/Unity/Realm-Rush/RealmRush
+/Users/busragul/Desktop/Unity/Realm-Rush/RealmRush
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 83.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.12f1 (48b1aa000234)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/busragul/Desktop/Unity/Realm-Rush/RealmRush/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+iMac preferred device: AMD Radeon Pro 5300 (high power)
+Metal devices available: 1
+0: AMD Radeon Pro 5300 (high power)
+Using device AMD Radeon Pro 5300 (high power)
+Initializing Metal device caps: AMD Radeon Pro 5300
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001830 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 73.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.772 seconds
+Domain Reload Profiling:
+	ReloadAssembly (773ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (485ms)
+			LoadAssemblies (163ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (137ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (268ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (73ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006675 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/busragul/Desktop/Unity/Realm-Rush/RealmRush/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/busragul/Desktop/Unity/Realm-Rush/RealmRush/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.131 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1132ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (900ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (331ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (332ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (231ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3232 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (96.1 KB). Loaded Objects now: 3691.
+Memory consumption went from 221.1 MB to 221.1 MB.
+Total: 3.073894 ms (FindLiveObjects: 0.279181 ms CreateObjectMapping: 0.192181 ms MarkObjects: 2.484441 ms  DeleteObjects: 0.117322 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 82999.920543 seconds.
+  path: Assets/AssetPack/VoxelCastle/Models/Tree_Large.obj
+  artifactKey: Guid(1c653cfa1a46c7248b5aa77ea7624db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Models/Tree_Large.obj using Guid(1c653cfa1a46c7248b5aa77ea7624db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3829013ecda5baf4af75d1d53cebee8') in 1.682033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/AssetPack/VoxelCastle/Models/Wall_In.png
+  artifactKey: Guid(f713d06f23fb03f409a902a4f8fed1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Models/Wall_In.png using Guid(f713d06f23fb03f409a902a4f8fed1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2475d11d05b55287e464faf2e94d3a') in 0.107997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/AssetPack/VoxelCastle/Models/Tower_Straight.obj
+  artifactKey: Guid(e7a14cf0c8f8c7f48b1a463cab3cfba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Models/Tower_Straight.obj using Guid(e7a14cf0c8f8c7f48b1a463cab3cfba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8a39d3bac8ce6426c1c4ae8815daa5') in 0.026642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/AssetPack/VoxelCastle/Models/Gate_1.obj
+  artifactKey: Guid(ed0d4b88051579a47a065eda53cf9480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Models/Gate_1.obj using Guid(ed0d4b88051579a47a065eda53cf9480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b00eea5508bcfc416b915bfb91973d') in 0.024650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/AssetPack/VoxelCastle/Models/Ballisa_Base.png
+  artifactKey: Guid(f7d44a55e98043e4d8cea381547ff757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Models/Ballisa_Base.png using Guid(f7d44a55e98043e4d8cea381547ff757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ccdf0f765de71debef4fb5e59da4b2') in 0.006198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/AssetPack/VoxelCastle/Models/Ram.obj
+  artifactKey: Guid(0eaf0955d0035664c87a3d4177a41887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Models/Ram.obj using Guid(0eaf0955d0035664c87a3d4177a41887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8268054d55419ccb6eb0d90f9c8802') in 0.027118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/AssetPack/VoxelCastle/Models/Tower_Right.png
+  artifactKey: Guid(ca298980c5e8df845b53e7c7f434fb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Models/Tower_Right.png using Guid(ca298980c5e8df845b53e7c7f434fb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05d6526aae9b08d6a15534adce4ecbe') in 0.007461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/AssetPack/VoxelCastle/Models/Grass.obj
+  artifactKey: Guid(5076ba01f21af0c4daff73ab13dba476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Models/Grass.obj using Guid(5076ba01f21af0c4daff73ab13dba476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96190278af62199c7c288ae41cb2807') in 0.024636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/AssetPack/VoxelCastle/Models/Road_Straight.png
+  artifactKey: Guid(3dd9605d2d4e8ba469fa5ddf06423ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Models/Road_Straight.png using Guid(3dd9605d2d4e8ba469fa5ddf06423ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266ef663c0e66782d6579fee2602a9b3') in 0.006007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/AssetPack/VoxelCastle/Models/Ballisa_Top.png
+  artifactKey: Guid(a1a9a2db362196f41b8441addbcc0c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Models/Ballisa_Top.png using Guid(a1a9a2db362196f41b8441addbcc0c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee82bef0e968030d7aed771e4ad81e88') in 0.009932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/AssetPack/VoxelCastle/Models/Ballisa_Top.obj
+  artifactKey: Guid(18cfa8e197c1ff74292ed6ff0cc8b3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Models/Ballisa_Top.obj using Guid(18cfa8e197c1ff74292ed6ff0cc8b3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3814af8676037555de875eb6dca199') in 0.026437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/AssetPack/VoxelCastle/Models/Shore_3.png
+  artifactKey: Guid(a7496d0b9261383468e8fed66a40da8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Models/Shore_3.png using Guid(a7496d0b9261383468e8fed66a40da8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb3c5a8917251cd7a75f7463ecef021') in 0.007908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/AssetPack/VoxelCastle/Models/Road_Corner.obj
+  artifactKey: Guid(626410dc07212d749823da2540a223bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Models/Road_Corner.obj using Guid(626410dc07212d749823da2540a223bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4186268b48bc3e258748dfb1135400') in 0.024520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/AssetPack/VoxelCastle/Models/Wall_In.obj
+  artifactKey: Guid(e06f55a4e9f0e954d8cfa9474c972880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Models/Wall_In.obj using Guid(e06f55a4e9f0e954d8cfa9474c972880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa474105366faa27d46fe6506ffbd4d') in 0.025769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/AssetPack/VoxelCastle/Models/Gate_1.png
+  artifactKey: Guid(0a454c2c084e06e4ba072926a9128554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Models/Gate_1.png using Guid(0a454c2c084e06e4ba072926a9128554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1249c5b0efc78acef9c2c74b3ed2652a') in 0.010589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/AssetPack/VoxelCastle/Models/Ram.png
+  artifactKey: Guid(f89231e1285b34f41a1e68d64ba7079b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Models/Ram.png using Guid(f89231e1285b34f41a1e68d64ba7079b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31558a90006589f7a87ab07dd0807cd6') in 0.009059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.470403 seconds.
+  path: Assets/AssetPack/VoxelCastle/Models/Water_Open.obj
+  artifactKey: Guid(a847eae99d42cdf49b01d8ca9f52e595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Models/Water_Open.obj using Guid(a847eae99d42cdf49b01d8ca9f52e595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f798fcaecc518dd2074dff2f64b1f799') in 0.019856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.706598 seconds.
+  path: Assets/AssetPack/VoxelCastle/VoxelCastle Asset Preview.unity
+  artifactKey: Guid(ae020a4d0fba7044d8674d303692ff7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/VoxelCastle Asset Preview.unity using Guid(ae020a4d0fba7044d8674d303692ff7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9370449a4c2943c976af4487f22d1b') in 0.001233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.451812 seconds.
+  path: Assets/AssetPack/VoxelCastle/Prefabs
+  artifactKey: Guid(0810c18387c203643b2bc85ab582fdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Prefabs using Guid(0810c18387c203643b2bc85ab582fdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd1903cfdd1f60d72f8ff8e9d485ba1') in 0.001668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032645 seconds.
+  path: Assets/AssetPack/VoxelCastle/Prefabs/Ballista.prefab
+  artifactKey: Guid(8a965e088bae16643aab3d07ccfd5e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Prefabs/Ballista.prefab using Guid(8a965e088bae16643aab3d07ccfd5e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c142d8ad964bb3aef053544d23d31a80') in 0.201266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/AssetPack/VoxelCastle/Prefabs/Gate_2.prefab
+  artifactKey: Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Prefabs/Gate_2.prefab using Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd128ef12a310ee82b706a3dc5ad899f') in 0.072609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/AssetPack/VoxelCastle/Prefabs/Shore_1.prefab
+  artifactKey: Guid(ced0806bb3a17fd42bfe8fe5f0c2faa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Prefabs/Shore_1.prefab using Guid(ced0806bb3a17fd42bfe8fe5f0c2faa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32926283f87c13fca72cb85caf2899c3') in 0.010736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AssetPack/VoxelCastle/Prefabs/Tower_Standing.prefab
+  artifactKey: Guid(7990df5d14c5d674ab9392935d4f6bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Prefabs/Tower_Standing.prefab using Guid(7990df5d14c5d674ab9392935d4f6bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434824ec4f3009db7439fc7e0a58a18d') in 0.009041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/AssetPack/VoxelCastle/Prefabs/Wall_Out.prefab
+  artifactKey: Guid(3f03f263d000f954a8885a417e678a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Prefabs/Wall_Out.prefab using Guid(3f03f263d000f954a8885a417e678a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a970344c5bc8f9dc1182ece27182e76') in 0.008359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.069074 seconds.
+  path: Assets/AssetPack/VoxelCastle/Prefabs/Gate_2.prefab
+  artifactKey: Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Prefabs/Gate_2.prefab using Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697550c866bfd5dac1c0e1c7e97dda52') in 0.007378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.822837 seconds.
+  path: Assets/Enemy/Enemy.mat
+  artifactKey: Guid(ebe834553ac364642bb302e56e7e0f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/Enemy.mat using Guid(ebe834553ac364642bb302e56e7e0f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2332b9935b12ad123f2f561b75d0f09') in 0.127712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.498863 seconds.
+  path: Assets/AssetPack/VoxelCastle/Prefabs/Gate_2.prefab
+  artifactKey: Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Prefabs/Gate_2.prefab using Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1db22e059574a1b1e67ba40f1e50ad') in 0.008321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.436826 seconds.
+  path: Assets/AssetPack/VoxelCastle/Prefabs/Gate_2.prefab
+  artifactKey: Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Prefabs/Gate_2.prefab using Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2ee26d4d284f927e12598989ac2c43') in 0.008404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.667366 seconds.
+  path: Assets/AssetPack/VoxelCastle/Prefabs/Gate_2.prefab
+  artifactKey: Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Prefabs/Gate_2.prefab using Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e06a2f2e89eca268a6cdbcc5210a9d6') in 0.008638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.004510 seconds.
+  path: Assets/AssetPack/VoxelCastle/Prefabs/Gate_2.prefab
+  artifactKey: Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Prefabs/Gate_2.prefab using Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c7092429f3da4568581e18401a26d6') in 0.008667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.386171 seconds.
+  path: Assets/AssetPack/VoxelCastle/Prefabs/Gate_2.prefab
+  artifactKey: Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Prefabs/Gate_2.prefab using Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cefbdbe77429081580ae7e23855411e') in 0.009545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.591280 seconds.
+  path: Assets/AssetPack/VoxelCastle/Prefabs/Gate_2.prefab
+  artifactKey: Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Prefabs/Gate_2.prefab using Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7b4fbf4133a05e00d36b5cbb7fc24a') in 0.007397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.392179 seconds.
+  path: Assets/AssetPack/VoxelCastle/Prefabs/Gate_2.prefab
+  artifactKey: Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Prefabs/Gate_2.prefab using Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61cd6e0976e9eda668db9d43c2289417') in 0.006924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.392134 seconds.
+  path: Assets/AssetPack/VoxelCastle/Prefabs/Gate_2.prefab
+  artifactKey: Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Prefabs/Gate_2.prefab using Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90f904e622aee8486f7aab3f5b582d4') in 0.008198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.216591 seconds.
+  path: Assets/AssetPack/VoxelCastle/Prefabs/Gate_2.prefab
+  artifactKey: Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Prefabs/Gate_2.prefab using Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe96dba4f37e56f8c35c5399d6a66864') in 0.007293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.385057 seconds.
+  path: Assets/AssetPack/VoxelCastle/Prefabs/Gate_2.prefab
+  artifactKey: Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Prefabs/Gate_2.prefab using Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4a3892e48a2581fd2f010a5bea7c0e') in 0.007096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.035908 seconds.
+  path: Assets/AssetPack/VoxelCastle/Prefabs/Gate_2.prefab
+  artifactKey: Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Prefabs/Gate_2.prefab using Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8c5fa3adf28ea783f50b46bf817bff') in 0.007565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.315476 seconds.
+  path: Assets/AssetPack/VoxelCastle/Prefabs/Gate_2.prefab
+  artifactKey: Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/VoxelCastle/Prefabs/Gate_2.prefab using Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44416ff4a4e81696bcc36b412bb8dbe9') in 0.010309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.406656 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c0449764e1deab35cfa3ce249833ac') in 0.001437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.030131 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288060a107df3fbac8ba6e279b99e656') in 0.001197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.281354 seconds.
+  path: Assets/Tiles/Tile.prefab
+  artifactKey: Guid(53904c39e5956427e884beb1a16289cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile.prefab using Guid(53904c39e5956427e884beb1a16289cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbcb87c481130b7b997cf362af4228a') in 0.046326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.747037 seconds.
+  path: Assets/Tiles/Tile.prefab
+  artifactKey: Guid(53904c39e5956427e884beb1a16289cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile.prefab using Guid(53904c39e5956427e884beb1a16289cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33907633cceb108db86dd1c4d3203b55') in 0.014927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.365584 seconds.
+  path: Assets/Tiles/Tile.prefab
+  artifactKey: Guid(53904c39e5956427e884beb1a16289cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile.prefab using Guid(53904c39e5956427e884beb1a16289cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391b92e7f458b1d0b2c46790defba663') in 0.027760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.434464 seconds.
+  path: Assets/Tiles/Tile.prefab
+  artifactKey: Guid(53904c39e5956427e884beb1a16289cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile.prefab using Guid(53904c39e5956427e884beb1a16289cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0e9d920eafc91dbc5d8d7afc18e74b') in 0.020847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.299393 seconds.
+  path: Assets/Tiles/Tile.prefab
+  artifactKey: Guid(53904c39e5956427e884beb1a16289cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile.prefab using Guid(53904c39e5956427e884beb1a16289cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3120389fb4eaae53642d4eacb7733e04') in 0.025478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.187609 seconds.
+  path: Assets/Tiles/Tile.prefab
+  artifactKey: Guid(53904c39e5956427e884beb1a16289cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile.prefab using Guid(53904c39e5956427e884beb1a16289cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec0fb94f6aff41a41e9ec1e327058e7') in 0.019268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.262427 seconds.
+  path: Assets/Tiles/Tile.prefab
+  artifactKey: Guid(53904c39e5956427e884beb1a16289cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile.prefab using Guid(53904c39e5956427e884beb1a16289cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9bea20ccccece17be5f5675828a05bd') in 0.020393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.890163 seconds.
+  path: Assets/Tiles/Tile.prefab
+  artifactKey: Guid(53904c39e5956427e884beb1a16289cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile.prefab using Guid(53904c39e5956427e884beb1a16289cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a7bcc05668753d396272efab816f1f') in 0.019796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.922022 seconds.
+  path: Assets/Tiles/Tile.prefab
+  artifactKey: Guid(53904c39e5956427e884beb1a16289cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile.prefab using Guid(53904c39e5956427e884beb1a16289cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3957dd67a3b92e5b93c29d590873f2') in 0.020083 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002001 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/busragul/Desktop/Unity/Realm-Rush/RealmRush/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/busragul/Desktop/Unity/Realm-Rush/RealmRush/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.950 seconds
+Domain Reload Profiling:
+	ReloadAssembly (951ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (714ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (281ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (283ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3214 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (72.3 KB). Loaded Objects now: 3739.
+Memory consumption went from 243.0 MB to 242.9 MB.
+Total: 3.855311 ms (FindLiveObjects: 0.414501 ms CreateObjectMapping: 0.453628 ms MarkObjects: 2.901214 ms  DeleteObjects: 0.085200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 97.807106 seconds.
+  path: Assets/Tiles/Tile_RoadStraight.prefab
+  artifactKey: Guid(da341280bf0a643a592ac4c92aaab91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile_RoadStraight.prefab using Guid(da341280bf0a643a592ac4c92aaab91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9d8fbd405b76ecf9f02b49ef4735a9') in 0.111965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.729695 seconds.
+  path: Assets/Tiles/Tile_RoadStraight.prefab
+  artifactKey: Guid(da341280bf0a643a592ac4c92aaab91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile_RoadStraight.prefab using Guid(da341280bf0a643a592ac4c92aaab91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246f11f469b54b46b8127ce19fbef898') in 0.020671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.651989 seconds.
+  path: Assets/Tiles/Tile.prefab
+  artifactKey: Guid(53904c39e5956427e884beb1a16289cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile.prefab using Guid(53904c39e5956427e884beb1a16289cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d45d4e4feb57c4b7b0448735f9ae40') in 0.022381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.383099 seconds.
+  path: Assets/Tiles/Tile.prefab
+  artifactKey: Guid(53904c39e5956427e884beb1a16289cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile.prefab using Guid(53904c39e5956427e884beb1a16289cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caafd033d9a657aa6e7db465a171d544') in 0.021530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 77.490217 seconds.
+  path: Assets/Tiles/Tile_RoadCorner.prefab
+  artifactKey: Guid(2a55bdabb84834ec5a616d281ccd003d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile_RoadCorner.prefab using Guid(2a55bdabb84834ec5a616d281ccd003d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1e0406a5feb0eafb2ea2d929b2a1f1') in 0.027816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.229437 seconds.
+  path: Assets/Tiles/Tile_RoadCorner.prefab
+  artifactKey: Guid(2a55bdabb84834ec5a616d281ccd003d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile_RoadCorner.prefab using Guid(2a55bdabb84834ec5a616d281ccd003d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3324da1e7b979295ff579fedc2bfeb7b') in 0.022827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 74.675630 seconds.
+  path: Assets/Tiles/Tile_RoadStraight90.prefab
+  artifactKey: Guid(d87b58876fba74569a727d2bb91c2005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile_RoadStraight90.prefab using Guid(d87b58876fba74569a727d2bb91c2005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d253cb71c236b74678d17734037ed8') in 0.024582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.929407 seconds.
+  path: Assets/Tiles/Tile_RoadStraight90.prefab
+  artifactKey: Guid(d87b58876fba74569a727d2bb91c2005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile_RoadStraight90.prefab using Guid(d87b58876fba74569a727d2bb91c2005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d0fd38075b0ca3791e40927d9c681e') in 0.022172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 112.117008 seconds.
+  path: Assets/Tiles/Tile_RoadStraight.prefab
+  artifactKey: Guid(da341280bf0a643a592ac4c92aaab91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile_RoadStraight.prefab using Guid(da341280bf0a643a592ac4c92aaab91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ccf2e61437e573850c35483b61a3cfb') in 0.020211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.925067 seconds.
+  path: Assets/Tiles/Tile_RoadStraight90.prefab
+  artifactKey: Guid(d87b58876fba74569a727d2bb91c2005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile_RoadStraight90.prefab using Guid(d87b58876fba74569a727d2bb91c2005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48fedecb71a0d27a2ac2406152bbb64f') in 0.020832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 88.360828 seconds.
+  path: Assets/Tiles/Tile_RoadCorner90.prefab
+  artifactKey: Guid(7931173ea55634bb48d515a6c67e07d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile_RoadCorner90.prefab using Guid(7931173ea55634bb48d515a6c67e07d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe49238b6d5e5f82bef4464894ec7ec') in 0.028205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.780097 seconds.
+  path: Assets/Tiles/Tile_RoadCorner.prefab
+  artifactKey: Guid(2a55bdabb84834ec5a616d281ccd003d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile_RoadCorner.prefab using Guid(2a55bdabb84834ec5a616d281ccd003d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c38f640f4c1d860a2617880cd39b2b') in 0.019673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.192183 seconds.
+  path: Assets/Tiles/Tile_RoadCorner180.prefab
+  artifactKey: Guid(e7569d7e9d9324d318f6683e52c0015d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile_RoadCorner180.prefab using Guid(e7569d7e9d9324d318f6683e52c0015d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897fe181b571f2fddfacf379cf54ce30') in 0.021044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.336705 seconds.
+  path: Assets/Tiles/Tile_RoadCorner180.prefab
+  artifactKey: Guid(e7569d7e9d9324d318f6683e52c0015d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile_RoadCorner180.prefab using Guid(e7569d7e9d9324d318f6683e52c0015d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39aedea6f68e6bf7b916f9d888dc258') in 0.021508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.194521 seconds.
+  path: Assets/Tiles/Tile_RoadCorner90.prefab
+  artifactKey: Guid(7931173ea55634bb48d515a6c67e07d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile_RoadCorner90.prefab using Guid(7931173ea55634bb48d515a6c67e07d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8574942065ce2b0c7d65b3675642c510') in 0.020889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.756580 seconds.
+  path: Assets/Tiles/Tile_RoadCorner270.prefab
+  artifactKey: Guid(aac1ba23aa91340eb8bc352b84202234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile_RoadCorner270.prefab using Guid(aac1ba23aa91340eb8bc352b84202234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c60bb836b3c65df2c4dc886dabdb9f6') in 0.020910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.749454 seconds.
+  path: Assets/Tiles/Tile_RoadCorner90.prefab
+  artifactKey: Guid(7931173ea55634bb48d515a6c67e07d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile_RoadCorner90.prefab using Guid(7931173ea55634bb48d515a6c67e07d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca8e1aed37543f7df5072ac5a6b8912') in 0.022654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 196.728676 seconds.
+  path: Assets/Tiles/Tile_RoadCorner180.prefab
+  artifactKey: Guid(e7569d7e9d9324d318f6683e52c0015d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile_RoadCorner180.prefab using Guid(e7569d7e9d9324d318f6683e52c0015d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1fe997c520b5ff91fd18c076d8bcdcb') in 0.040816 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001391 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/busragul/Desktop/Unity/Realm-Rush/RealmRush/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/busragul/Desktop/Unity/Realm-Rush/RealmRush/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.015 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1016ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (753ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (298ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (207ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3214 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (72.4 KB). Loaded Objects now: 3741.
+Memory consumption went from 243.3 MB to 243.2 MB.
+Total: 3.547434 ms (FindLiveObjects: 0.276721 ms CreateObjectMapping: 0.304585 ms MarkObjects: 2.882992 ms  DeleteObjects: 0.081813 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
