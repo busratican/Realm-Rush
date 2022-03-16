@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Enemy))]
 public class EnemyMover : MonoBehaviour
 {
     [SerializeField] List<WayPoint> path = new List<WayPoint>();
@@ -24,12 +25,20 @@ public class EnemyMover : MonoBehaviour
     {
         path.Clear();
         
-        GameObject[] points = GameObject.FindGameObjectsWithTag("Path");
+        GameObject parent = GameObject.FindGameObjectWithTag("Path");
 
-        foreach(GameObject wayPoint in points)
+        foreach(Transform child in parent.transform)
         {
-            path.Add(wayPoint.GetComponent<WayPoint>());
+            WayPoint wayPoint = child.GetComponent<WayPoint>();
+            if(wayPoint != null)
+                path.Add(wayPoint);
         }
+    }
+
+    void FinishPath()
+    {
+        enemy.Penalty();
+        gameObject.SetActive(false);
     }
 
     void ReturnToStart()
@@ -54,7 +63,6 @@ public class EnemyMover : MonoBehaviour
                  yield return new WaitForEndOfFrame();
             }
         }
-        enemy.Penalty();
-        gameObject.SetActive(false);
+        FinishPath();
     }
 }
