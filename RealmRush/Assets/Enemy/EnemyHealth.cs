@@ -31,6 +31,7 @@ public class EnemyHealth : MonoBehaviour
         {
              gameObject.SetActive(false);
              maxHitPoints += diffucultyRamp;
+             currentHitPoints = maxHitPoints;
              enemy.Reward();
         }
     }

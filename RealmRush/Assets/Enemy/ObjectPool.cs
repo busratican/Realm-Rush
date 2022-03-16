@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class ObjectPool : MonoBehaviour
 {
     [SerializeField] GameObject enemyPrefab;
-    GameObject[] pool;
-    [SerializeField] int poolSize = 5;
-    [SerializeField] float spawnTimer = 1f;
+     GameObject[] pool;
+    [SerializeField] [Range(0, 50)] int poolSize = 5;
+    [SerializeField] [Range(0.1f, 30f)] float spawnTimer = 1f;
 
 
     // Start is called before the first frame update
