@@ -9,11 +9,29 @@ public class EnemyMover : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        PrintWayPointNames();
-        StartCoroutine(PrintWayPointNames());
+        FindPath();
+        ReturnToStart();
+        StartCoroutine(FollowPath());
     }
 
-    IEnumerator PrintWayPointNames()
+    void FindPath()
+    {
+        path.Clear();
+        
+        GameObject[] points = GameObject.FindGameObjectsWithTag("Path");
+
+        foreach(GameObject wayPoint in points)
+        {
+            path.Add(wayPoint.GetComponent<WayPoint>());
+        }
+    }
+
+    void ReturnToStart()
+    {
+        transform.position = path[0].transform.position;
+    }
+
+    IEnumerator FollowPath()
     {
         foreach (WayPoint wayPoint in path)
         {
@@ -30,5 +48,7 @@ public class EnemyMover : MonoBehaviour
                  yield return new WaitForEndOfFrame();
             }
         }
+
+        Destroy(gameObject);
     }
 }
