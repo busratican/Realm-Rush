@@ -349,8 +349,9 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Enemy/CoordinateLabeler.cs"
 "Assets/Enemy/EnemyMover.cs"
-"Assets/TargetLocator.cs"
+"Assets/EnemyHealth.cs"
 "Assets/Tiles/WayPoint.cs"
+"Assets/Tower/TargetLocator.cs"
 -langversion:9.0
 
 /deterministic
