@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class WayPoint : MonoBehaviour
 {
-    [SerializeField] bool isPlaceable = false;
+    [SerializeField] bool isPlaceable;
     //Property
-    public bool IsPlaceable { get { return isPlaceable; } }
+    public bool IsPlaceable { 
+        get { 
+            return isPlaceable; 
+            } 
+    }
     [SerializeField] GameObject Tower;
 
 
