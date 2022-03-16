@@ -349,6 +349,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Enemy/EnemyHealth.cs"
 "Assets/Enemy/EnemyMover.cs"
+"Assets/Enemy/ObjectPool.cs"
 "Assets/Tiles/CoordinateLabeler.cs"
 "Assets/Tiles/WayPoint.cs"
 "Assets/Tower/TargetLocator.cs"
