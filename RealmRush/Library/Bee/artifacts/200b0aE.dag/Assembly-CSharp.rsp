@@ -356,7 +356,7 @@
 "Assets/Pathfinding/Node.cs"
 "Assets/Pathfinding/Pathfinder.cs"
 "Assets/Tiles/CoordinateLabeler.cs"
-"Assets/Tiles/WayPoint.cs"
+"Assets/Tiles/Tile.cs"
 "Assets/Tower/TargetLocator.cs"
 "Assets/Tower/Tower.cs"
 -langversion:9.0

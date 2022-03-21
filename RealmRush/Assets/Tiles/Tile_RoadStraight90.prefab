@@ -75,5 +75,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile_RoadStraight90
       objectReference: {fileID: 0}
+    - target: {fileID: 523976458079613691, guid: da341280bf0a643a592ac4c92aaab91b, type: 3}
+      propertyPath: m_text
+      value: 0, 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 523976458079613691, guid: da341280bf0a643a592ac4c92aaab91b, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da341280bf0a643a592ac4c92aaab91b, type: 3}
